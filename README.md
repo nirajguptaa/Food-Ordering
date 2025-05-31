@@ -1,70 +1,131 @@
-# Getting Started with Create React App
+# 🍽️ Delicious Foods – Food Ordering Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to **Delicious Foods**, a modern food ordering web application inspired by Swiggy and Zomato.  
+Order your favorite meals, enjoy lightning-fast delivery, and experience a seamless checkout process!
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+##  Features
 
-### `npm start`
+- **Home Page**
+  - Hero section with animated banner and search bar
+  - Category filter with horizontal scrolling
+  - Menu items displayed in modern, responsive cards
+  - Real-time search for dishes and restaurants
+  - "Add to Cart" with instant feedback
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Cart**
+  - View all selected items with images, descriptions, and prices
+  - Adjust item quantities or remove items
+  - See subtotal, delivery fee (free over $25), and total
+  - Promo code input (UI)
+  - Proceed to checkout or continue shopping
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Order Summary & Checkout**
+  - Enter delivery information (name, phone, email, address, instructions)
+  - Choose payment method: Cash on Delivery, UPI, or Card
+  - UPI ID validation and secure payment info
+  - Order summary sidebar with all items and totals
+  - Place order with loading state and error handling
 
-### `npm test`
+- **Order Confirmation**
+  - Animated success screen with order details
+  - Estimated delivery time and SMS confirmation info
+  - Option to continue shopping
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Recommended Section**
+  - Suggestions for pizza, drinks, desserts, etc.
 
-### `npm run build`
+- **Footer**
+  - Quick links, categories, and social icons
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Responsive Design**
+  - Fully mobile-friendly and works on all devices
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Modern UI**
+  - Clean, vibrant design with gradients, icons, and subtle animations
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+##  Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **React** (functional components & hooks)
+- **Firebase Firestore** (for menu and order data)
+- **React Router**
+- **Context API** (for cart management)
+- **Custom CSS** 
+- **Deployed with Node.js**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+##  Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/nirajguptaa/Food-Ordering-app.git
+   cd food-ordering-app
+   ```
 
-## Learn More
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. **Set up Firebase**
+   - Create a Firebase project and Firestore database.
+   - Add your Firebase config to `src/config/firebase.js`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. **Run the app**
+   ```bash
+   npm start
+   ```
 
-### Code Splitting
+5. **Build for production**
+   ```bash
+   npm run build
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 📋 Folder Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+src/
+  components/
+  context/
+  screens/
+    HomeScreen.js
+    CartScreen.js
+    OrderSummaryScreen.js
+  config/
+    firebase.js
+  App.js
+  index.js
+  ...
+```
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+##  Credits
 
-### Advanced Configuration
+- Inspired by Swiggy, Zomato, and modern food delivery UIs.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📱 Screenshots
+![image](https://github.com/user-attachments/assets/13be46f2-85f1-4707-ac37-abcd074e37b8)
+![image](https://github.com/user-attachments/assets/32403b25-965d-4527-ace1-33db7d128881)
+![image](https://github.com/user-attachments/assets/4a850630-b972-4a0b-a0d1-d5934898c0be)
+![image](https://github.com/user-attachments/assets/ddd27922-9dac-4996-ac52-16cac53aa036)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+---
+
+## License
+
+This project is for educational/demo purposes.  
+Feel free to use and modify!
