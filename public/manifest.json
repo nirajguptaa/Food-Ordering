@@ -1,6 +1,7 @@
+
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Delicious Foods",
+  "name": "Delicious Foods - Food Delivery App",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +21,9 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#FF6B35",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "categories": ["food", "delivery", "restaurant"],
+  "description": "Order your favorite meals and get them delivered fresh to your door!"
 }
