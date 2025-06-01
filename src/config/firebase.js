@@ -3,7 +3,9 @@ import { getFirestore } from "firebase/firestore";
 import { getAnalytics, isSupported } from "firebase/analytics";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD-Q0SwLQmyPJZFbGV01h8qFT9qFLjazuQ",
+  apiKey: "AIzaSyCSM4SezoKLcfM05qGZvYcapp_EsCcNJBk",
+  //AIzaSyD-Q0SwLQmyPJZFbGV01h8qFT9qFLjazuQ
+  //AIzaSyCSM4SezoKLcfM05qGZvYcapp_EsCcNJBk
   authDomain: "food-ordering-4dcf1.firebaseapp.com",
   projectId: "food-ordering-4dcf1",
   storageBucket: "food-ordering-4dcf1.appspot.com", // <-- fixed typo here
